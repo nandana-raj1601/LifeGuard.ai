@@ -1,0 +1,290 @@
+{
+  "Flu": {
+    "causes": "Influenza virus infection",
+    "advice": "Rest, stay hydrated, consider OTC medication for symptom relief, consult a doctor if high fever persists.",
+    "critical": false,
+    "symptoms": ["fever", "cough", "fatigue", "headache"],
+    "medications": [
+      { "name": "Oseltamivir", "dosage": "75mg twice daily for 5 days", "precautions": "Take with food; adjust in renal impairment", "sideEffects": "Nausea, vomiting, headache" },
+      { "name": "Paracetamol", "dosage": "500-1000mg every 6-8 hours", "precautions": "Do not exceed daily max dose; adjust for liver disease", "sideEffects": "Rare allergic reactions, liver toxicity in overdose" }
+    ]
+  },
+  "COVID-19": {
+    "causes": "SARS-CoV-2 virus infection",
+    "advice": "Isolate, monitor symptoms, seek medical care if breathing difficulties occur, follow local health guidelines.",
+    "critical": true,
+    "symptoms": ["fever", "cough", "fatigue", "loss of taste", "shortness of breath"],
+    "medications": [
+      { "name": "Remdesivir", "dosage": "200mg IV on day 1, then 100mg daily for 5-10 days", "precautions": "Hospital use only; monitor liver function", "sideEffects": "Elevated liver enzymes, nausea" },
+      { "name": "Paracetamol", "dosage": "500-1000mg every 6-8 hours", "precautions": "Monitor liver function", "sideEffects": "Liver toxicity in overdose" }
+    ]
+  },
+  "Common Cold": {
+    "causes": "Rhinovirus or coronavirus infection",
+    "advice": "Rest, stay hydrated, use saline nasal drops, consult a doctor if symptoms worsen.",
+    "critical": false,
+    "symptoms": ["cough", "sore throat", "runny nose", "sneezing"],
+    "medications": [
+      { "name": "Paracetamol", "dosage": "500-1000mg every 6-8 hours", "precautions": "Do not exceed daily max dose", "sideEffects": "Rare allergic reactions, liver toxicity in overdose" },
+      { "name": "Saline Nasal Drops", "dosage": "2-3 drops per nostril as needed", "precautions": "Safe for all ages", "sideEffects": "None" }
+    ]
+  },
+  "Asthma": {
+    "causes": "Inflammation of airways triggered by allergens, exercise, or infections",
+    "advice": "Use prescribed inhalers, avoid triggers, seek urgent care if severe shortness of breath occurs.",
+    "critical": false,
+    "symptoms": ["shortness of breath", "cough", "wheezing", "chest tightness"],
+    "medications": [
+      { "name": "Salbutamol Inhaler", "dosage": "2 puffs every 4-6 hours as needed", "precautions": "Check inhaler technique; avoid overuse", "sideEffects": "Tremors, palpitations" },
+      { "name": "Fluticasone Inhaler", "dosage": "1-2 puffs twice daily", "precautions": "Rinse mouth after use to prevent thrush", "sideEffects": "Oral thrush, hoarseness" }
+    ]
+  },
+  "Pneumonia": {
+    "causes": "Bacterial or viral infection of lungs",
+    "advice": "Seek immediate medical care, complete prescribed antibiotics if bacterial, rest and stay hydrated.",
+    "critical": true,
+    "symptoms": ["fever", "cough", "shortness of breath", "chest pain"],
+    "medications": [
+      { "name": "Amoxicillin", "dosage": "500mg every 8 hours for 7-10 days", "precautions": "Check for penicillin allergy", "sideEffects": "Rash, diarrhea" },
+      { "name": "Paracetamol", "dosage": "500-1000mg every 6-8 hours", "precautions": "Avoid exceeding daily max dose", "sideEffects": "Liver toxicity in overdose" }
+    ]
+  },
+  "Bronchitis": {
+    "causes": "Viral or bacterial infection of bronchial tubes",
+    "advice": "Rest, stay hydrated, avoid smoking, consult a doctor if symptoms persist.",
+    "critical": false,
+    "symptoms": ["cough", "fatigue", "shortness of breath", "chest discomfort"],
+    "medications": [
+      { "name": "Cough Syrup", "dosage": "10ml every 8 hours as needed", "precautions": "Check active ingredients for allergies", "sideEffects": "Drowsiness, nausea" },
+      { "name": "Paracetamol", "dosage": "500-1000mg every 6-8 hours", "precautions": "Do not exceed daily max dose", "sideEffects": "Liver toxicity in overdose" }
+    ]
+  },
+  "Tuberculosis": {
+    "causes": "Mycobacterium tuberculosis infection",
+    "advice": "Refer to healthcare provider immediately for diagnosis and treatment.",
+    "critical": true,
+    "symptoms": ["fever", "night sweats", "cough", "weight loss"],
+    "medications": [
+      { "name": "Isoniazid", "dosage": "300mg once daily", "precautions": "Monitor liver function", "sideEffects": "Liver toxicity, peripheral neuropathy" },
+      { "name": "Rifampicin", "dosage": "600mg once daily", "precautions": "Avoid interaction with other meds", "sideEffects": "Orange discoloration of urine, liver toxicity" }
+    ]
+  },
+  "Malaria": {
+    "causes": "Plasmodium parasite transmitted by mosquito bites",
+    "advice": "Seek immediate medical care, use mosquito nets and prophylaxis in endemic areas.",
+    "critical": true,
+    "symptoms": ["fever", "chills", "sweating", "headache", "nausea"],
+    "medications": [
+      { "name": "Artemisinin Combination Therapy", "dosage": "Based on weight; usually 4mg/kg twice daily for 3 days", "precautions": "Adjust dose for children", "sideEffects": "Nausea, dizziness" }
+    ]
+  },
+  "Dengue": {
+    "causes": "Dengue virus transmitted by Aedes mosquitoes",
+    "advice": "Stay hydrated, monitor for warning signs, seek immediate medical attention if severe symptoms appear.",
+    "critical": true,
+    "symptoms": ["fever", "rash", "muscle pain", "joint pain", "nausea"],
+    "medications": [
+      { "name": "Paracetamol", "dosage": "500mg every 6 hours as needed", "precautions": "Avoid NSAIDs like ibuprofen due to bleeding risk", "sideEffects": "Liver toxicity in overdose" },
+      { "name": "Oral Rehydration Solution", "dosage": "As per hydration needs", "precautions": "Maintain fluid balance", "sideEffects": "None" }
+    ]
+  },
+  "Typhoid": {
+    "causes": "Salmonella typhi bacterial infection",
+    "advice": "Consult a healthcare provider for diagnosis and treatment, maintain good hygiene.",
+    "critical": false,
+    "symptoms": ["fever", "abdominal pain", "fatigue", "headache", "diarrhea"],
+    "medications": [
+      { "name": "Ceftriaxone", "dosage": "1-2g IV once daily", "precautions": "Monitor for allergy", "sideEffects": "Diarrhea, rash" }
+    ]
+  },
+  "Chickenpox": {
+    "causes": "Varicella-zoster virus infection",
+    "advice": "Isolate to prevent spread, use soothing lotions, consult a doctor for severe symptoms.",
+    "critical": false,
+    "symptoms": ["fever", "rash", "itching", "fatigue"],
+    "medications": [
+      { "name": "Acetaminophen", "dosage": "500mg every 6 hours as needed for fever", "precautions": "Do not exceed recommended dose", "sideEffects": "Rare: nausea, rash" },
+      { "name": "Calamine Lotion", "dosage": "Apply to affected area 2-3 times daily", "precautions": "Avoid eyes and mucous membranes", "sideEffects": "Mild skin irritation" }
+    ]
+  },
+  "Measles": {
+    "causes": "Measles virus infection",
+    "advice": "Isolate, maintain hydration, seek medical attention for complications.",
+    "critical": false,
+    "symptoms": ["fever", "cough", "rash", "runny nose", "red eyes"],
+    "medications": [
+      {
+        "name": "Acetaminophen",
+        "dosage": "500mg every 6 hours as needed for fever",
+        "sideEffects": "Rare: nausea, rash",
+        "precautions": "Do not exceed recommended dose"
+      },
+      {
+        "name": "Vitamin A",
+        "dosage": "200,000 IU orally once daily for 2 days (children over 12 months)",
+        "sideEffects": "Nausea, headache in high doses",
+        "precautions": "Follow physician guidance"
+      }
+    ]
+  },
+  "Migraine": {
+    "causes": "Neurological triggers including stress, hormonal changes, certain foods",
+    "advice": "Rest in a quiet dark room, use prescribed medications, track triggers.",
+    "critical": false,
+    "symptoms": ["headache", "nausea", "sensitivity to light", "sensitivity to sound"],
+    "medications": [
+      {
+        "name": "Ibuprofen",
+        "dosage": "400mg every 6-8 hours as needed",
+        "sideEffects": "Stomach upset, dizziness",
+        "precautions": "Avoid in ulcers or kidney issues"
+      },
+      {
+        "name": "Sumatriptan",
+        "dosage": "50mg at onset of migraine",
+        "sideEffects": "Nausea, dizziness, chest discomfort",
+        "precautions": "Do not use with heart disease"
+      }
+    ]
+  },
+  "Hypertension": {
+    "causes": "High blood pressure due to genetics, lifestyle, or other conditions",
+    "advice": "Monitor blood pressure, reduce salt intake, consult a doctor for management.",
+    "critical": false,
+    "symptoms": ["headache", "chest pain", "dizziness", "shortness of breath"],
+    "medications": [
+      {
+        "name": "Amlodipine",
+        "dosage": "5-10mg once daily",
+        "sideEffects": "Swelling, fatigue, dizziness",
+        "precautions": "Monitor blood pressure regularly"
+      },
+      {
+        "name": "Losartan",
+        "dosage": "50mg once daily",
+        "sideEffects": "Dizziness, headache",
+        "precautions": "Avoid in pregnancy"
+      }
+    ]
+  },
+  "Diabetes": {
+    "causes": "Insufficient insulin production or resistance",
+    "advice": "Monitor blood sugar, maintain healthy diet, consult a doctor for management.",
+    "critical": false,
+    "symptoms": ["frequent urination", "increased thirst", "fatigue", "blurred vision"],
+    "medications": [
+      {
+        "name": "Metformin",
+        "dosage": "500mg twice daily with meals",
+        "sideEffects": "Nausea, diarrhea",
+        "precautions": "Take with food, avoid in renal impairment"
+      },
+      {
+        "name": "Insulin",
+        "dosage": "Individualized based on blood glucose monitoring",
+        "sideEffects": "Hypoglycemia",
+        "precautions": "Monitor blood sugar frequently"
+      }
+    ]
+  },
+  "Anemia": {
+    "causes": "Iron deficiency, vitamin deficiency, or chronic disease",
+    "advice": "Eat iron-rich foods, consult a doctor to determine cause and treatment.",
+    "critical": false,
+    "symptoms": ["fatigue", "weakness", "pale skin", "dizziness"],
+    "medications": [
+      {
+        "name": "Ferrous Sulfate",
+        "dosage": "325mg once daily",
+        "sideEffects": "Constipation, dark stools",
+        "precautions": "Take on empty stomach if tolerated, avoid with antacids"
+      },
+      {
+        "name": "Vitamin B12",
+        "dosage": "1000mcg daily orally or weekly injection",
+        "sideEffects": "Rare: mild diarrhea",
+        "precautions": "Monitor levels periodically"
+      }
+    ]
+  },
+  "Depression": {
+    "causes": "Genetic, psychological, and environmental factors",
+    "advice": "Seek professional mental health support, therapy, and lifestyle modifications.",
+    "critical": false,
+    "symptoms": ["fatigue", "loss of interest", "insomnia", "hopelessness"],
+    "medications": [
+      {
+        "name": "Sertraline",
+        "dosage": "50mg once daily",
+        "sideEffects": "Nausea, insomnia, dizziness",
+        "precautions": "Monitor for mood changes, avoid abrupt discontinuation"
+      },
+      {
+        "name": "Fluoxetine",
+        "dosage": "20mg once daily",
+        "sideEffects": "Insomnia, headache, nausea",
+        "precautions": "Avoid alcohol, monitor for suicidal thoughts"
+      }
+    ]
+  },
+  "Anxiety": {
+    "causes": "Stress, genetics, or psychological factors",
+    "advice": "Practice relaxation techniques, seek counseling if symptoms interfere with daily life.",
+    "critical": false,
+    "symptoms": ["restlessness", "fatigue", "rapid heartbeat", "trouble sleeping"],
+    "medications": [
+      {
+        "name": "Lorazepam",
+        "dosage": "0.5-1mg as needed for acute anxiety",
+        "sideEffects": "Drowsiness, dizziness",
+        "precautions": "Short-term use only, avoid alcohol"
+      },
+      {
+        "name": "Buspirone",
+        "dosage": "10-20mg twice daily",
+        "sideEffects": "Nausea, headache",
+        "precautions": "May take 2-4 weeks for effect"
+      }
+    ]
+  },
+  "Food Poisoning": {
+    "causes": "Contaminated food or water",
+    "advice": "Stay hydrated, rest, consult a doctor if severe or persistent symptoms occur.",
+    "critical": false,
+    "symptoms": ["nausea", "vomiting", "diarrhea", "abdominal pain"],
+    "medications": [
+      {
+        "name": "Oral Rehydration Solution",
+        "dosage": "As per packet instructions",
+        "sideEffects": "None",
+        "precautions": "Ensure proper mixing"
+      },
+      {
+        "name": "Loperamide",
+        "dosage": "2mg after each loose stool, max 8mg/day",
+        "sideEffects": "Constipation, dizziness",
+        "precautions": "Avoid if high fever or blood in stool"
+      }
+    ]
+  },
+  "Ulcer": {
+    "causes": "Helicobacter pylori infection, NSAID overuse, stress",
+    "advice": "Avoid irritating foods, follow medical advice for diagnosis and treatment.",
+    "critical": false,
+    "symptoms": ["abdominal pain", "nausea", "indigestion", "bloating"],
+    "medications": [
+      {
+        "name": "Omeprazole",
+        "dosage": "20mg once daily before breakfast",
+        "sideEffects": "Headache, nausea",
+        "precautions": "Take before meals, avoid abrupt discontinuation"
+      },
+      {
+        "name": "Amoxicillin",
+        "dosage": "1g twice daily for 14 days",
+        "sideEffects": "Diarrhea, rash",
+        "precautions": "Complete full course, monitor for allergies"
+      }
+    ]
+  }
+}
