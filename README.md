@@ -70,6 +70,24 @@ All personal details and symptom data are processed locally or via secure API en
 
 Designed with compliance considerations for healthcare applications.
 
+## Screenshots
+
+### 🔹 Homepage
+
+![Homepage](assets/homepage.png)
+
+### 🔹 Symptom Input & Predictions
+
+![Predictions](assets/predictions.png)
+
+### 🔹 Disease Details
+
+![Details](assets/details.png)
+
+### 🔹 Follow up Questions
+
+![FollowUps](assets/followups.png)
+
 Installation
 Backend
 
